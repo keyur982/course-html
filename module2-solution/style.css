@@ -99,6 +99,8 @@ img {
   }
   .col-md-4 {
     width: 33.33%;
+    height: 110px;
+    overflow: auto;
   }
   .col-md-5 {
     width: 41.66%;
