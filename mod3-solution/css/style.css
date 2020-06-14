@@ -1,0 +1,62 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.header-container{
+  background: darkgrey;
+}
+
+.navbar-brand{
+  vertical-align: center;
+}
+.navbar-brand h1{
+  color: black;
+  font-style: italic;
+}
+
+
+.nav-item a{
+  color: black;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 0.9;
+}
+
+.nav-item a:hover{
+  color: white;
+  background: grey;
+}
+
+.toggleBtn{
+  border: 1px solid black;
+  color: black;
+  float: right;
+}
+
+.toggleBtn:focus{
+  border: none;
+}
+
+h2{
+  float: right;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid yellow;
+  background: cyan;
+}
+
+section {
+  clear: right;
+  padding: 5px;
+}
+
+
+.cell{
+  background: grey;
+  padding: 5px;
+  margin: 15px;
+  height: 250px;
+  border: 1px solid black;
+  overflow: hidden;
+}
