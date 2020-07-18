@@ -102,7 +102,6 @@ function buildAndShowHomeHTML (categories) {
       // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
       // variable's name implies it expects.
       var chosenCategory = chooseRandomCategory(categories);
-      var chosenCategoryShortName = chosenCategory.short_name;
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
@@ -116,9 +115,7 @@ function buildAndShowHomeHTML (categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       //
-      var finalHtml = homeHtml;
-      finalHtml = insertProperty(finalHtml,"randomCategoryShortName",chosenCategoryShortName);
-      var homeHtmlToInsertIntoMainPage = finalHtml;
+      var homeHtmlToInsertIntoMainPage = buildHomeViewHtml(homeHtml,chosenCategory);
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
@@ -131,6 +128,12 @@ function buildAndShowHomeHTML (categories) {
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
 
+function buildHomeViewHtml(homeHtml, chosenCategory) {
+
+  var finalHtml = homeHtml;
+  finalHtml = insertProperty(finalHtml,"randomCategoryShortName",chosenCategory.short_name);
+  return finalHtml;
+}
 
 // Given array of category objects, returns a random category object.
 function chooseRandomCategory (categories) {
