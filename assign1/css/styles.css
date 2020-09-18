@@ -1,12 +1,13 @@
 .row-header{
     margin:0px auto;
-    padding:0px;
+    padding-bottom: 0px;
+    border-bottom: 1px ridge;
 }
 
 .row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
+   
 }
 
 .footer{
@@ -16,7 +17,7 @@
 }
 
 .jumbotron {
-    padding:0px 30px 70px 30px;
+    padding:40px 30px 70px 30px;
     margin:0px auto;
     background: #9575CD ;
     color:floralwhite;
