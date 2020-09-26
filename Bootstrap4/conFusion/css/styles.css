@@ -36,7 +36,19 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+.carousel {
+    background:#512DA8;
+}
 
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
 address{
     font-size:80%;
     margin:0px;
