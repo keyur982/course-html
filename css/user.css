@@ -1,0 +1,117 @@
+body{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    background-image: url(../image/backwhite3.jpg);
+    
+}
+.change-link a{
+    text-decoration: none;
+    color: black;
+     
+}
+.heading{
+    text-align: center;
+    font-size: 50px; 
+}
+.login-card-name{
+    font-size: 40px;
+    color: #7B241C ;
+    font-weight: normal;
+  }
+.sub-heading{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Sacramento', cursive;
+}
+.sub-heading-1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}
+.base-card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(124, 138, 152, 0.6);
+    overflow: hidden; 
+    background-color: white;
+    
+}
+.login-card-description {
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 15px; 
+  }
+.base-card-des {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(124, 138, 152, 0.6);
+    overflow: hidden; 
+    padding: 10px;
+    background-color: white;
+}
+.base-card-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden; 
+    border : 1px solid rgb(111, 111, 111);
+}
+.photo-des{
+    text-align: center;
+    margin: 0px;
+    color: #7B241C;
+}
+.form-group input {
+    border: 2px solid #d5dae2;
+    padding: 15px 25px;
+    min-height: 30px;
+    font-size: 20px;
+    line-height: 15;
+    font-weight: normal; 
+}
+.form-control:hover{
+    border: 2px solid rgb(190, 213, 247);
+}
+.description{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.loder-name{  
+    animation: textani 3s ease  infinite  ;
+}
+.loder{  
+    animation: textanim 3s ease  infinite  ;
+}
+@keyframes textanim{
+    0%
+    {
+        color: #6b1a10;
+    }
+    70%
+    {
+        color: rgb(255, 21, 0)
+    }
+    100%
+    {
+        color: #6b1a10;
+    }
+}
+@keyframes textani{
+    0%
+    {
+        color: #f07e6e;
+    }
+    33%
+    {
+        color: #6b1a10;
+    }
+    66%
+    {
+        color: #205452;
+    }
+    100%
+    {
+        color: #f07e6e;
+    }
+}
+

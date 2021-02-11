@@ -1,0 +1,57 @@
+body{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    background-image: url(../image/backwhite2.jpg);
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(138, 11, 11);
+}
+.base-card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(124, 138, 152, 0.6);
+    overflow: hidden; 
+    transition: .3s;
+    background-color: white;
+}
+.base-card-1 {
+
+    box-shadow: 0 0 15px rgba(124, 138, 152, 0.6);
+    overflow: hidden; 
+    background-color: white;
+}
+.sub-heading{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Sacramento', cursive;
+    margin-top: 15px;
+}
+.change-link a{
+    text-decoration: none;
+    color: black;
+     
+}
+.base-card:hover{
+    box-shadow: 0 0 10px rgba(124, 138, 152, 0.6);
+    transform: scale(1.05);
+}
+.form-group input {
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid #b7babf;
+    padding: 15px 25px;
+    min-height: 30px;
+    font-size: 20px;
+    line-height: 15;
+    font-weight: normal; 
+}
+.form-control:hover{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid #202021;
+}

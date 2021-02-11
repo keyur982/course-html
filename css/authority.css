@@ -1,0 +1,51 @@
+body{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 20px;
+    background-image: url(../image/backwhite2.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(138, 11, 11);
+}
+.base-card-1 {
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(124, 138, 152, 0.6);
+    overflow: hidden; 
+    background-color: white;
+}
+.base-card-2 {
+    border-radius: 10px;
+    background-color: white;
+    border : 3px solid #B3B6B7 ;
+    padding: 20px;
+    margin: 10px;
+}
+.base-card-img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden; 
+    border : 1px solid rgb(111, 111, 111);
+}
+
+.form-group input {
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 5px solid #b7babf;
+    padding: 15px 25px;
+    min-height: 30px;
+    font-size: 20px;
+    line-height: 15;
+    font-weight: normal; 
+}
+.form-control:hover{
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom: 2px solid #202021;
+}
